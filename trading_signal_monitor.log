@@ -1,0 +1,115 @@
+2025-06-02 17:56:30,535 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 17:56:30,536 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 17:56:30,536 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 17:56:30,536 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 17:56:30,536 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 17:56:30,536 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 17:56:30,536 - src.utils.logger - ERROR - 策略执行异常: 'BinanceClient' object has no attribute 'get_closing_prices'
+2025-06-02 17:56:30,537 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 17:56:33,015 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:05:09,644 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:05:09,644 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:05:09,646 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:05:09,646 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:05:09,646 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:05:09,646 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:05:09,646 - src.utils.logger - ERROR - 策略执行异常: BinanceClient.get_kline_data() missing 1 required positional argument: 'interval'
+2025-06-02 18:05:09,646 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:05:13,164 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:07:41,269 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:07:41,269 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:07:41,270 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:07:41,270 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:07:41,270 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:07:41,270 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:07:41,270 - src.utils.logger - ERROR - 策略执行异常: BinanceClient.get_kline_data() got multiple values for argument 'interval'
+2025-06-02 18:07:41,270 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:07:44,066 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:08:30,991 - src.utils.logger - ERROR - 策略执行异常: BinanceClient.get_kline_data() got multiple values for argument 'limit'
+2025-06-02 18:08:30,991 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:08:32,777 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:11:47,002 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:11:47,002 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:11:47,002 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:11:47,003 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:11:47,003 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:11:47,003 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:11:47,003 - src.utils.logger - ERROR - 策略执行异常: BinanceClient.get_kline_data() got multiple values for argument 'limit'
+2025-06-02 18:11:47,004 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:11:52,160 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:16:36,627 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:16:36,627 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:16:36,627 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:16:36,628 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:16:36,628 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:16:36,628 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:16:36,920 - src.utils.logger - ERROR - 策略执行异常: 'function' object has no attribute 'url'
+2025-06-02 18:16:36,920 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:16:41,718 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:16:58,443 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:16:58,443 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:16:58,443 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:16:58,445 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:16:58,445 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:16:58,445 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:17:08,467 - src.utils.logger - ERROR - 获取K线数据失败: HTTPSConnectionPool(host='fapi.binance.com', port=443): Read timed out. (read timeout=10)
+2025-06-02 18:17:08,467 - src.utils.logger - ERROR - 策略执行异常: 'NoneType' object has no attribute 'get'
+2025-06-02 18:17:08,468 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:17:11,845 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:18:54,912 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:18:54,912 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 18:18:54,912 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 18:18:54,912 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:18:54,913 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:18:54,913 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:18:55,303 - src.utils.logger - INFO - 获取到 100 条收盘价数据
+2025-06-02 18:18:55,303 - src.utils.logger - INFO - 计算技术指标...
+2025-06-02 18:18:55,304 - src.utils.logger - INFO - 有效指标数据点: 81个
+2025-06-02 18:18:55,304 - src.utils.logger - INFO - 检测交易信号...
+2025-06-02 18:18:55,304 - src.utils.logger - INFO - 信号结果: 买入=False, 卖出=False
+2025-06-02 18:18:55,304 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:20:49,403 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:24:02,954 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:24:02,954 - src.utils.logger - INFO - 交易对: HYPEUSDT
+2025-06-02 18:24:02,956 - src.utils.logger - INFO - 时间周期: 30m
+2025-06-02 18:24:02,956 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:24:02,956 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:24:02,956 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:24:03,231 - src.utils.logger - INFO - 获取到 100 条收盘价数据
+2025-06-02 18:24:03,231 - src.utils.logger - INFO - 计算技术指标...
+2025-06-02 18:24:03,231 - src.utils.logger - INFO - 有效指标数据点: 76个
+2025-06-02 18:24:03,231 - src.utils.logger - INFO - 检测交易信号...
+2025-06-02 18:24:03,232 - src.utils.logger - INFO - 信号结果: 买入=False, 卖出=True
+2025-06-02 18:24:03,232 - src.utils.logger - INFO - 发现卖出信号! 强度: 75/100
+2025-06-02 18:24:03,493 - src.utils.logger - INFO - SELL信号已发送
+2025-06-02 18:24:03,493 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:24:33,298 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 18:39:50,963 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 18:39:50,963 - src.utils.logger - INFO - 交易对: HYPEUSDT
+2025-06-02 18:39:50,965 - src.utils.logger - INFO - 时间周期: 30m
+2025-06-02 18:39:50,965 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 18:39:50,965 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 18:39:50,965 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 18:39:51,502 - src.utils.logger - INFO - 获取到 100 条收盘价数据
+2025-06-02 18:39:51,502 - src.utils.logger - INFO - 计算技术指标...
+2025-06-02 18:39:51,502 - src.utils.logger - INFO - 有效指标数据点: 76个
+2025-06-02 18:39:51,502 - src.utils.logger - INFO - 检测交易信号...
+2025-06-02 18:39:51,502 - src.utils.logger - INFO - 信号结果: 买入=False, 卖出=False
+2025-06-02 18:39:51,502 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 18:50:01,285 - src.utils.logger - INFO - 系统安全停止
