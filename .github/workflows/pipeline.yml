@@ -2,7 +2,7 @@ name: EmaCrossTradingSignal
 
 on:
   schedule:
-  - cron: '14,29,44,59 * * * *'  # UTC 00:00 = 北京 08:00
+  - cron: '13,28,43,58 * * * *'  # UTC 00:00 = 北京 08:00
 
 
 jobs:
