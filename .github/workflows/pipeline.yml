@@ -3,7 +3,8 @@ name: EmaCrossTradingSignal
 on:
   schedule:
   - cron: '13,28,43,58 * * * *'  # UTC 00:00 = 北京 08:00
-
+  push:  # 同时响应代码推送
+    branches: [ main ]
 
 jobs:
   process-data:
