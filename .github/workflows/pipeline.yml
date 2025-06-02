@@ -12,18 +12,22 @@ jobs:
   process-data:
     runs-on: ubuntu-latest
     steps:
+      # 拉取代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 设置Python环境
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
       
+      # 安装依赖并运行程序
       - name: Run main script
         env:
           WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}   # 注入API令牌
         run: |
           wget https://github.com/ta-lib/ta-lib/releases/download/v0.6.4/ta-lib_0.6.4_amd64.deb
           sudo dpkg -i ta-lib_0.6.4_amd64.deb
-          pwd
-          ls -l
           pip3 install -r requirements.txt
           python3 main.py
