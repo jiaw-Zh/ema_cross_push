@@ -9,7 +9,7 @@ PRODUCT_TYPE= "USDT-FUTURES" # 产品类型
 SIGNAL_COOLDOWN = 900  # 信号冷却时间(秒)
 
 # 技术指标参数
-EMA_PERIOD_SHORT = 6   # 短期EMA周期
+EMA_PERIOD_SHORT = 10   # 短期EMA周期
 EMA_PERIOD_LONG = 20    # 长期EMA周期
 RSI_PERIOD = 14         # RSI周期
 VOLUME_MULTIPLIER = 1.5 # 成交量放大倍数阈值
