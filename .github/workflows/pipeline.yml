@@ -23,7 +23,7 @@ jobs:
         run: |
           wget https://mirrors.aliyun.com/pypi/packages/35/dc/e7fab66315fdd2e2eeb2e3dbb9d23ea615bafc1e9174a8965d310e40a3c2/ta_lib-0.6.3.tar.gz#sha256=0c628db09b3fab6e5c26979e608b674e7aecc10359c82ba8d53f729767a856ac
           tar -zxvf ta_lib-0.6.3.tar.gz
-          cd TA-Lib-0.6.3
+          cd ta_lib-0.6.3
           pip install .
           cd ..
           pip3 install -r requirements.txt
