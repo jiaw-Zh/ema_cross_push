@@ -3,16 +3,11 @@ name: EmaCrossTradingSignal
 on:
   schedule:
   - cron: '13,28,43,58 * * * *'  # UTC 00:00 = 北京 08:00
-  push:  # 同时响应代码推送
-    branches: [ main ]
 
 jobs:
   process-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
