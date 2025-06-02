@@ -4,6 +4,10 @@ on:
   schedule:
   - cron: '13,28,43,58 * * * *'  # UTC 00:00 = 北京 08:00
 
+  push:
+    branches:
+      - main  # 仅在main分支上触发
+
 jobs:
   process-data:
     runs-on: ubuntu-latest
