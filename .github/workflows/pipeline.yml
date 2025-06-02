@@ -22,4 +22,5 @@ jobs:
         env:
           WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}   # 注入API令牌
         run: |
-          python main.py
+          pip3 install -r requirements.txt
+          python3 main.py
