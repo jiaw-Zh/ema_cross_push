@@ -101,15 +101,18 @@ class TradingSignalSystem:
         self.run_strategy()
 
         # 设置定时任务
-        schedule.every(15).minutes.do(self.run_strategy)
+        #schedule.every(15).minutes.do(self.run_strategy)
 
-        # 主循环
-        try:
-            while True:
-                schedule.run_pending()
-                time.sleep(60)
-        except KeyboardInterrupt:
-            logger.info("系统安全停止")
+        # 主循环，服务器运行时释放注释
+        # try:
+        #     while True:
+        #         schedule.run_pending()
+        #         time.sleep(60)
+        # except KeyboardInterrupt:
+        #     logger.info("系统安全停止")
+        
+       
+        
 
 
 if __name__ == "__main__":
