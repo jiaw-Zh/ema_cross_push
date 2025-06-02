@@ -15,7 +15,7 @@ class TradingSignalSystem:
 
     def __init__(self):
         # 初始化组件
-        self.client = BinanceClient(symbol=cfg.SYMBOL, interval=cfg.INTERVAL)
+        self.client = BinanceClient(symbol=cfg.SYMBOL, interval=cfg.INTERVAL,productType=cfg.PRODUCT_TYPE)
         self.signal_detector = SignalDetector(
             short_period=cfg.EMA_PERIOD_SHORT,
             long_period=cfg.EMA_PERIOD_LONG,
@@ -35,6 +35,7 @@ class TradingSignalSystem:
             logger.info("获取收盘价序列...")
             closes = self.client.get_kline_data(cfg.SYMBOL,
                                                 cfg.INTERVAL,
+                                                cfg.PRODUCT_TYPE,
                                                 limit=cfg.DATA_LIMIT).get(
                                                     'close', None)
 
@@ -101,7 +102,7 @@ class TradingSignalSystem:
         self.run_strategy()
 
         # 设置定时任务
-        #schedule.every(15).minutes.do(self.run_strategy)
+        # schedule.every(15).minutes.do(self.run_strategy)
 
         # 主循环，服务器运行时释放注释
         # try:

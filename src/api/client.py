@@ -7,18 +7,19 @@ from src.utils.logger import logger
 class BinanceClient:
     """Binance API客户端封装"""
 
-    def __init__(self, symbol, interval):
+    def __init__(self, symbol, interval,productType):
         self.symbol = symbol
         self.interval = interval
+        self.productType = productType
         self.session = requests.Session()
 
-    def get_kline_data(self, symbol, interval, limit=100):
-        """从币安API获取K线数据"""
+    def get_kline_data(self, symbol, interval, productType, limit=100):
+        """从bitget API获取K线数据"""
         try:
-            url = f"https://fapi.binance.com/fapi/v1/klines?symbol={symbol}&interval={interval}&limit={limit}"
+            url = f"https://api.bitget.com/api/v2/mix/market/candles?symbol={symbol}&granularity={interval}&limit={limit}&productType={productType}"
             response = requests.get(url, timeout=10)
             response.raise_for_status()
-            data = response.json()
+            data = response.json().get('data', [])
 
             # 提取开盘价、最高价、最低价、收盘价、成交量
             opens = [float(d[1]) for d in data]
@@ -37,4 +38,3 @@ class BinanceClient:
         except Exception as e:
             logger.error(f"获取K线数据失败: {e}")
             return None
-

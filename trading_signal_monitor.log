@@ -113,3 +113,66 @@
 2025-06-02 18:39:51,502 - src.utils.logger - INFO - << 策略执行完成
 
 2025-06-02 18:50:01,285 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 22:27:27,796 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 22:27:27,797 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 22:27:27,797 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 22:27:27,797 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 22:27:27,797 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 22:27:27,797 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 22:27:27,797 - src.utils.logger - ERROR - 策略执行异常: BinanceClient.get_kline_data() missing 1 required positional argument: 'productType'
+2025-06-02 22:27:27,797 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 22:27:33,106 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 22:30:39,442 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 22:30:39,443 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 22:30:39,443 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 22:30:39,443 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 22:30:39,443 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 22:30:39,443 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 22:30:39,443 - src.utils.logger - ERROR - 策略执行异常: BinanceClient.get_kline_data() missing 1 required positional argument: 'productType'
+2025-06-02 22:30:39,443 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 22:30:58,447 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 22:32:53,073 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 22:32:53,073 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 22:32:53,073 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 22:32:53,073 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 22:32:53,074 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 22:32:53,074 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 22:32:55,826 - src.utils.logger - INFO - 获取到 100 条收盘价数据
+2025-06-02 22:32:55,826 - src.utils.logger - INFO - 计算技术指标...
+2025-06-02 22:32:55,826 - src.utils.logger - INFO - 检测交易信号...
+2025-06-02 22:32:55,826 - src.utils.logger - INFO - 信号结果: 买入=False, 卖出=False
+2025-06-02 22:32:55,826 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 22:33:04,527 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 22:33:53,067 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 22:33:53,067 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 22:33:53,068 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 22:33:53,068 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 22:33:53,068 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 22:33:53,068 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 22:33:54,248 - src.utils.logger - INFO - 获取到 100 条收盘价数据
+2025-06-02 22:33:54,248 - src.utils.logger - INFO - 计算技术指标...
+2025-06-02 22:33:54,248 - src.utils.logger - INFO - 检测交易信号...
+2025-06-02 22:33:54,248 - src.utils.logger - INFO - 信号结果: 买入=True, 卖出=False
+2025-06-02 22:33:54,248 - src.utils.logger - INFO - 发现买入信号! 强度: 60/100
+2025-06-02 22:33:54,249 - src.utils.logger - ERROR - 通知发送失败: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-06-02 22:33:54,249 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 22:35:46,661 - src.utils.logger - INFO - 系统安全停止
+2025-06-02 22:35:48,016 - src.utils.logger - INFO - ========== 交易信号系统启动 ==========
+2025-06-02 22:35:48,016 - src.utils.logger - INFO - 交易对: FARTCOINUSDT
+2025-06-02 22:35:48,016 - src.utils.logger - INFO - 时间周期: 15m
+2025-06-02 22:35:48,016 - src.utils.logger - INFO - 冷却时间: 15分钟
+2025-06-02 22:35:48,016 - src.utils.logger - INFO - >> 开始执行策略
+2025-06-02 22:35:48,016 - src.utils.logger - INFO - 获取收盘价序列...
+2025-06-02 22:35:49,722 - src.utils.logger - INFO - 获取到 100 条收盘价数据
+2025-06-02 22:35:49,722 - src.utils.logger - INFO - 计算技术指标...
+2025-06-02 22:35:49,722 - src.utils.logger - INFO - 检测交易信号...
+2025-06-02 22:35:49,722 - src.utils.logger - INFO - 信号结果: 买入=True, 卖出=False
+2025-06-02 22:35:49,723 - src.utils.logger - INFO - 发现买入信号! 强度: 75/100
+2025-06-02 22:35:49,961 - src.utils.logger - INFO - BUY信号已发送
+2025-06-02 22:35:49,961 - src.utils.logger - INFO - << 策略执行完成
+
+2025-06-02 22:36:58,980 - src.utils.logger - INFO - 系统安全停止
